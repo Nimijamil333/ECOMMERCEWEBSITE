@@ -1,0 +1,96 @@
+.navbar {
+     background-color: black  !important ;
+}
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+    font-family: Jura;
+} 
+ 
+.navbar-brand{
+    font-family: Jura;
+    color: white !important;
+    font-size: 30px;
+}
+.fa-cart-arrow-down{
+    font-size: 25px !important;
+}
+.fa-user{
+    font-size: 19px !important;
+}
+.fa-truck , .fa-thumbs-o-up , .fa-phone-square{
+    font-size: 40px !important ;
+    margin-right: 10px;
+    color: teal !important;
+} 
+
+
+
+.card1 , .card2 , .card3  {
+    display: flex;
+    width :300px ;
+    height:80px;
+    box-shadow: 2px 4px 5px grey;  
+    background-color: white; 
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+ 
+
+}
+
+.maincard{
+ margin-top: 20px;  
+ margin-left: 10px;  
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ flex-wrap: wrap;
+
+} 
+@media screen and (max-width: 600px) {
+    .card1 , .card2 , .card3 {
+            width: 100%;
+    }
+  }
+
+  .newarrival{
+      margin-top: 40px ;
+      margin-left: 10px; 
+  }
+
+.btn-primary{
+     width: 100%;
+     background-color: black;
+}  
+
+.card-img-top{
+    height: 290px;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 30px;
+    font-family:Jura; 
+    text-shadow:2px 2px 4px black;
+
+}
+
+
+.footer {
+   width: 100%;
+   background-color: black;
+   color: white;
+   height: 50px;
+   text-align: center;
+   margin-top: 20px; 
+
+
+} 
+
+
+
+
+
+
+
